@@ -37,5 +37,13 @@ Code for the Argon has to be compiled using the same Device OS that is on the Ar
 4. Put the Argon into DFU (device firmware update) mode by pressing and holding the Mode button on the Argon while pressing and releasing the Reset button. Continue holding Mode until the RGB (Red Green Blue) LED starts flashing yellow.
 5. Run the following line of code in the CLI (command line interface) that pops up: `particle update`. This should update your Device OS, in my case to 2.3.0. 
 6. Check your Device OS by putting the Argon in listening mode (press and hold Mode until the LED blinks blue) and typing the following command into the CLI: `particle identify`
-7. Configure Workbench to work with the Device OS that you confirmed you're using in the previous step. Your settings should look something like this on the bottom of Workbench: 
-<img src="../assets/images/particle_workbench_config.png" width="800">
+7. Configure Workbench to work with the Device OS that you confirmed you're using in the previous step. Your settings should look something like this on the bottom of Workbench: <img src="../assets/images/particle_workbench_config.png" width="1080">
+8. Open the command palette and run `Particle: flash application (local)` to (finally) compile and flash your script (your .ino file) to your device. If successful, this will result in the blinking of a blue LED close to the micro-USB socket on the Argon
+
+### On your own
+The next exercise is to print "Hello, world" to the serial monitor at 1 Hz (once per second). I recommend creating a new project for this so that you don't lose/overwrite the Blink_LED project. 
+1. Follow example code from https://docs.particle.io/hardware/expansion/about-serial/ or other Particle documentation.
+2. Look up Serial in Particle documentation to understand both what is happening and the multiple necessary parts.
+3. Put the println statement in the `void loop()` part of your code.
+4. Open the serial monitor in Workbench by selecting `Particle: serial monitor` from the command palette.
+This exercise is successful when you see the phrase "Hello, world" show up on a new line in the serial monitor every second.

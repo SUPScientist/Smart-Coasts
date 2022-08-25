@@ -1,5 +1,6 @@
 # Smart Coasts, OCN 479
-Welcome to Smart Coasts. This GitHub repository provides a supplement to the OCN 479 Canvas page and in-class activities. In particular, this repo will be used to provide code examples and getting started tips.
+Welcome to Smart Coasts. This GitHub repository provides a supplement to the OCN 479 Canvas page and in-class activities. In particular, this repo will be used to provide code examples and getting started tips. This repo contains helpful information but it does not replace or supersede the Canvas page, so continue to check Canvas for important class information!
+
 ## Project Ideas
 In Fall 2022, we will attempt to build a low-cost bio-optical water quality sensor package for citizen/community science applications. Additional sensors and networks may be designed as well, according to student interest, time, and resources. Here are some relevant links:
 - Chlorophyll fluorometer, based on design described in *In situ Measurements of Phytoplankton Fluorescence Using Low Cost Electronics* by Leeuw et al. (2013). https://doi.org/10.3390/s130607872.

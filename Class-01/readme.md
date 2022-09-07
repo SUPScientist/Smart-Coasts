@@ -35,10 +35,12 @@ Code for the Argon has to be compiled using the same Device OS that is on the Ar
 2. Type "particle"
 3. Select "Particle Launch CLI"
 4. Put the Argon into DFU (device firmware update) mode by pressing and holding the Mode button on the Argon while pressing and releasing the Reset button. Continue holding Mode until the RGB (Red Green Blue) LED starts flashing yellow.
-5. Run the following line of code in the CLI (command line interface) that pops up: `particle update`. This should update your Device OS, in my case to 2.3.0. 
+5. Run the following line of code in the CLI (command line interface) that pops up: `particle update`. This should update your Device OS, in my case to 2.3.0. See below for additional troubleshooting steps if needed.
 6. Check your Device OS by putting the Argon in listening mode (press and hold Mode until the LED blinks blue) and typing the following command into the CLI: `particle identify`
 7. Configure Workbench to work with the Device OS that you confirmed you're using in the previous step. Your settings should look something like this on the bottom of Workbench: <img src="../assets/images/particle_workbench_config.png" width="1080">
 8. Open the command palette and run `Particle: flash application (local)` to (finally) compile and flash your script (your .ino file) to your device. If successful, this will result in the blinking of a blue LED close to the micro-USB socket on the Argon
+
+Some users have also reported needing to run Particle's "Restore Another Device" option instead of `particle update` which is currently Step 5. Instructions can be found at https://docs.particle.io/tools/device-restore/device-restore-usb/. This step allows you to use your browser instead of Particle Workbench/VS Code to get the Argon in working condition. 
 
 ### On your own
 The next exercise is to print "Hello, world" to the serial monitor at 1 Hz (once per second). I recommend creating a new project for this so that you don't lose/overwrite the Blink_LED project. 

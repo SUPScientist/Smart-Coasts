@@ -11,6 +11,8 @@ const pin_t MY_LED = D7;
 SYSTEM_THREAD(ENABLED);
 SYSTEM_MODE(SEMI_AUTOMATIC);
 
+// Random note to show git tools
+
 // The setup() method is called once when the device boots.
 void setup()
 {

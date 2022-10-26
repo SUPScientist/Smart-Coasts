@@ -1,0 +1,8 @@
+# Class 8: Introducing the Blue Economy, Innovation, and Commercialization
+Today's lecture zooms out away from our specific sensors and takes a broad view of the Blue Economy, in addition to considerations around innovating and commercializing solutions for the Blue Economy. The slides in this lecture folder are shared with the permission of their authors: Heather McWhorter (Director of the Center for Innovation and Entrepreneurship at UNCW), Justin Streuli (Director of the Office of Innovation and Commercialization), and Troy Alphin (Research Scientist at the Center for Marine Science and Fellow of the Alliance for the Blue Economy, AKA "AllBlue"). A huge thanks to our guest speakers for sharing their insights and this great content. 
+
+Most, if not all, students enrolled in this class might not be thinking about commercializing tech they've developed here or elsewhere. That's perfectly fine! Nonetheless, I think that this topic is important for everybody for a couple reasons.
+1. It introduces the concept of the Blue Economy, which is increasingly important in our era of global commerce combined with global climate change, both with the ocean at the center.
+2. It connects classroom activities with applications: how do we get research out of classrooms and university labs in order to have societal impacts beyond term papers and research publications?
+3. There are many elements of the Customer Discovery process and Business Model Canvas that can be applied to the job search, from explorations into one's own value proposition(s) to following up with thank you notes.
+In short, I believe lessons from this class have very broad applications!

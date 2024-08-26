@@ -1,3 +1,14 @@
+/* 
+ * Project myProject
+ * Author: Your Name
+ * Date: 
+ * For comprehensive documentation and examples, please visit:
+ * https://docs.particle.io/firmware/best-practices/firmware-template/
+ */
+
+// Include Particle Device OS APIs
+#include "Particle.h"
+
 // We define MY_LED to be the LED that we want to blink.
 //
 // In this tutorial, we're using the blue D7 LED (next to D7 on the Photon

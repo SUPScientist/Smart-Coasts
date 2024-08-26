@@ -26,7 +26,7 @@ So, again, skip setting up the Argon and instead use the code from the Blink_LED
 ### Create a Project
 - Create a new project by opening the Particle command palette and selecting Particle: Create New Project. Put this project in a sensible spot on your computer, ideally one that is backed up to the cloud (UNCW offers free OneDrive storage, an excellent way to make sure you never lose important stuff, especially related to assignments!). I recommend creating a class folder titled something like OCN479-Smart-Coasts or whatever you want. 
 - Once you have the directory in which you want to store your Particle projects for this class, create a project name for this project. Something like Blink_LED.
-- Paste the code from the file named Blink_LED.ino into the .ino file that is generated for this new project.
+- Paste the code from the file named Blink_LED.cpp into the .cpp file that is generated for this new project within the /src subdirectory.
 - See next step for how to compile and flash code and get it working with the Argon.
 
 ### Troubleshooting and Additional Steps

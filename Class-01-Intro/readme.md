@@ -9,6 +9,9 @@ Our goal for the first class is to become acquainted with the Particle Argon, ou
 ### Download Particle Workbench
 Downloading Particle Workbench (https://www.particle.io/workbench/) will give you Microsoft's free VS Code editor and several extensions for working with Particle devices. It allows us to write code on our computers and then compile and flash it. "Compile" means to take the firmware code from the lines written on our computers and turn it into a file that provides instructions for the microcontroller in the microcontroller's language. "Flash" means to upload that compiled code onto the microcontroller so that it will follow the instructions.
 
+### Create Particle Account, Login
+In your browser, go to https://login.particle.io/login and create an account. Back in Particle workbench, through the Command Palette, run `Particle: Login`
+
 ### Set up Argon
 This requires access to a Wi-Fi network for the Argon and failed miserably in our first class because the Argon couldn't connect to our main WPA2 Wi-Fi network which requires username and password nor to our guest network (for unknown reasons, likely strict university security protocols). Skip setup for now. 
 

@@ -10,7 +10,7 @@ Our goal for the first class is to become acquainted with the Particle Argon, ou
 Downloading Particle Workbench (https://www.particle.io/workbench/) will give you Microsoft's free VS Code editor and several extensions for working with Particle devices. It allows us to write code on our computers and then compile and flash it. "Compile" means to take the firmware code from the lines written on our computers and turn it into a file that provides instructions for the microcontroller in the microcontroller's language. "Flash" means to upload that compiled code onto the microcontroller so that it will follow the instructions.
 
 ### Create Particle Account, Login
-In your browser, go to https://login.particle.io/login and create an account. Back in Particle workbench, through the Command Palette, run `Particle: Login`
+In your browser, go to https://login.particle.io/login and create an account. Back in Particle workbench, through the Command Palette, run `Particle: Login` and enter your credentials.
 
 ### Set up Argon
 This requires access to a Wi-Fi network for the Argon and failed miserably in our first class because the Argon couldn't connect to our main WPA2 Wi-Fi network which requires username and password nor to our guest network (for unknown reasons, likely strict university security protocols). Skip setup for now. 
@@ -26,11 +26,11 @@ However, due to the issues with Wi-Fi setup described above, this can be much ha
 
 So, again, skip setting up the Argon and instead use the code from the Blink_LED.ino script in this folder. 
 
-### Create a Project
-- Create a new project by opening the Particle command palette and selecting Particle: Create New Project. Put this project in a sensible spot on your computer, ideally one that is backed up to the cloud (UNCW offers free OneDrive storage, an excellent way to make sure you never lose important stuff, especially related to assignments!). I recommend creating a class folder titled something like OCN479-Smart-Coasts or whatever you want. 
+### VS Code/Workbench Steps
+- Create a new project by opening the Particle command palette and selecting `Particle: Create New Project`. Put this project in a sensible spot on your computer, ideally one that is backed up to the cloud (UNCW offers free OneDrive storage, an excellent way to make sure you never lose important stuff, especially related to assignments!). I recommend creating a class folder titled something like OCN479-Smart-Coasts or whatever you want. 
 - Once you have the directory in which you want to store your Particle projects for this class, create a project name for this project. Something like Blink_LED.
-- Paste the code from the file named Blink_LED.cpp into the .cpp file that is generated for this new project within the /src subdirectory.
-- See next step for how to compile and flash code and get it working with the Argon.
+- Paste the code from the file in this folder/repository named Blink_LED.cpp into the .cpp file that is generated for this new project within the /src subdirectory.
+- Open the command palette and run `Particle: flash application (local)` to (finally) compile and flash your script (your .ino file) to your device. If successful, this will result in the blinking of a blue LED close to the micro-USB socket on the Argon
 
 ### Troubleshooting and Additional Steps
 Code for the Argon has to be compiled using the same Device OS that is on the Argon. According to the Particle Forum link above, the devices ship with 1.4.4, which is rather out of date. Here's how to get stuff synced up properly:

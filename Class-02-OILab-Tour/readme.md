@@ -8,13 +8,19 @@ GitHub, on the other hand, is a mostly online application where we can store our
 
 Since the professionals at GitHub are better at describing it than I am, let's turn to their curated resources to learn more about GitHub. Here is a link to their "What is GitHub" video: https://www.youtube.com/watch?v=pBy1zgt0XPc. 
 
+## READMEs and Markdown
+Note that the file you are currently reading is a rendered version of the readme.md file in this folder (you could also click on the readme.md file to navigate directly to it, just like you could click on any other file). GitHub always renders the readme.md file of the folder you are looking at in the main browser window. Readmes are therefore very helpful tools to provide information in an "in your face" way that doesn’t require people to track down the info they might need to learn about the folder that they are in.
+
+Also, .md refers to a “markdown” file. Markdown is a powerful and effective website language that is WAY simpler to learn than .html (Hyper-Text Markup Language; note that .md's "markdown" is meant to be the simpler version of .html's "markup"). Learn more about markdown here: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax. 
+
 ## Motivation
 We will begin to create repositories for our class projects, following the best practices that they describe. This class is not designed to teach you all of git/GitHub's amazing functionality, but it is designed to help you get comfortable with some of the basics. 
 
 ## Guided Activity
 1. (Required) Create a GitHub account if you don't already have one
 2. (Required) Complete the [Introduction to GitHub course](https://github.com/skills/introduction-to-github)
-3. (Optional) In Step 2, you created a PROFILE.md file in a repository named skills-introduction-to-github. You now have the skills to make a much more visible profile for your GitHub repository. Create a repository called `your-username` where of course you change `your-username` with your actual new GitHub username. Then, create a README.md file and make your profile there. Point employers to this as an electronic resume of your coding skills, especially after filling out your profile with additional repositories containing (preferably code-based) projects you've worked on before.
+3. (Required) Copy the hyperlink to the PROFILE.md file that you created through the exercise in Step 2. Paste it in the Canvas Discussion that is marked as an assignment due next week.
+4. (Optional) In Step 2, you created a PROFILE.md file in a repository named skills-introduction-to-github. You now have the skills to make a much more visible profile for your GitHub repository. Create a repository called `your-username` where of course you change `your-username` with your actual new GitHub username. Then, create a README.md file and make your profile there. Point employers to this as an electronic resume of your coding skills, especially after filling out your profile with additional repositories containing (preferably code-based) projects you've worked on before.
 
 Here is my profile as an example: https://github.com/SUPScientist. 
 

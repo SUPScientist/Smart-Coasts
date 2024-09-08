@@ -20,7 +20,8 @@ We will begin to create repositories for our class projects, following the best 
 1. (Required) Create a GitHub account if you don't already have one
 2. (Required) Complete the [Introduction to GitHub course](https://github.com/skills/introduction-to-github)
 3. (Required) Copy the hyperlink to the PROFILE.md file that you created through the exercise in Step 2. Paste it in the Canvas Discussion that is marked as an assignment due next week.
-4. (Optional) In Step 2, you created a PROFILE.md file in a repository named skills-introduction-to-github. You now have the skills to make a much more visible profile for your GitHub repository. Create a repository called `your-username` where of course you change `your-username` with your actual new GitHub username. Then, create a README.md file and make your profile there. Point employers to this as an electronic resume of your coding skills, especially after filling out your profile with additional repositories containing (preferably code-based) projects you've worked on before.
+4. (Required) Create a Particle account at https://login.particle.io/signup if you don't already have one.
+5. (Optional) In Step 2, you created a PROFILE.md file in a repository named skills-introduction-to-github. You now have the skills to make a much more visible profile for your GitHub repository. Create a repository called `your-username` where of course you change `your-username` with your actual new GitHub username. Then, create a README.md file and make your profile there. Point employers to this as an electronic resume of your coding skills, especially after filling out your profile with additional repositories containing (preferably code-based) projects you've worked on before.
 
 Here is my profile as an example: https://github.com/SUPScientist. 
 

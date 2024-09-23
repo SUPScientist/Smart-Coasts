@@ -1,0 +1,1 @@
+No additional class/lab notes this week. Refer to https://github.com/SUPScientist/Smart-Coasts/blob/main/Class-03-Presentation1/readme.md for class/lab notes and Canvas for the assignment.

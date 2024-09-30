@@ -22,6 +22,9 @@ In the picture, the long lead of the LED connects to pin D6 using the blue wire.
 
 For this exercise, we can take a couple shortcuts. (1) The antenna is not necessary (this is the cable going off the right side of the image above). (2) We won't use prototyping wires (the red, black, and blue wires in the photo). We will make more direct connections, such as by skipping the black wire which takes the Argon's ground and creates a ground rail on the breadboard and instead going from the Argon's ground to one lead of the resistor, and picking up the circuit from there. 
 
+### How to use a Multimeter
+*Live demo*. Every group should check voltage, resistance, and connectivity of parts on their breadboard.
+
 ## Lab Exercise
 Teams of 3:  
 1. Using the description above, the photo, and https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/#blink-an-external-led, build the external LED circuit. 
@@ -32,6 +35,6 @@ Teams of 3:
 2. Before plugging in the USB cable, confirm with Bresnahan that your circuit looks correct.
 3. Blink the LED using our old Blink_LED project but changing from the pin that we used in that script (to blink the onboard LED) to the pin corresponding to the GPIO pin you chose for this circuit. Make sure you change all references to the pin in the script. 
 4. Create a GitHub repository, or use your old Blink_LED one (creating a new one might be easier due to the way git tracks changes). Push to it your entire Particle project as well as your circuit diagram. Add a README.md file to the main repository/folder that describes what we can find in the repo (e.g., code and a circuit diagram) and provides instructions on how to build the circuit. For instructions, you may copy and paste from these notes as long as you reference this repository.  
-5. Submit a link to your full GitHub repo
+5. Submit a link to your full GitHub repo in Canvas.
 
 Only one person per team needs to create this repository, but all are equally responsible for its contents!

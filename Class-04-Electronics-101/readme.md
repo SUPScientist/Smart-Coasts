@@ -34,7 +34,7 @@ Teams of 3:
   3. Both sides of the resistor
 2. Before plugging in the USB cable, confirm with Bresnahan that your circuit looks correct.
 3. Blink the LED using our old Blink_LED project but changing from the pin that we used in that script (to blink the onboard LED) to the pin corresponding to the GPIO pin you chose for this circuit. Make sure you change all references to the pin in the script. 
-4. Create a GitHub repository, or use your old Blink_LED one (creating a new one might be easier due to the way git tracks changes). Push to it your entire Particle project as well as your circuit diagram. Add a README.md file to the main repository/folder that describes what we can find in the repo (e.g., code and a circuit diagram) and provides instructions on how to build the circuit. For instructions, you may copy and paste from these notes as long as you reference this repository.  
+4. Create a GitHub repository, or use your old Blink_LED one (creating a new one might be easier due to the way git tracks changes). Push to it your entire Particle project as well as your circuit diagram. Add a README.md file to the main repository/folder that describes what we can find in the repo (e.g., code and a circuit diagram) and provides instructions on how to build the circuit. For instructions, you may copy and paste from these notes as long as you reference this repository (note that the [repository's license](../LICENSE.txt) is very permissive).  
 5. Submit a link to your full GitHub repo in Canvas.
 
 Only one person per team needs to create this repository, but all are equally responsible for its contents!

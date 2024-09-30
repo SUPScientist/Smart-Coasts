@@ -30,9 +30,9 @@ For this exercise, we can take a couple shortcuts. (1) The antenna is not necess
 Teams of 3:  
 1. Using the description above, the photo, and https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/#blink-an-external-led, build the external LED circuit. 
 2. Draw a circuit diagram corresponding to your circuit using [circuit-diagram.org](https://www.circuit-diagram.org/). To complete this exercise, you will have to look up examples of "led circuit diagrams" online. You will have to show the following for full credit: 
-  - The Argon's GPIO pin and ground pin (the Boron serves as our power supply, but swap out the power supply/battery symbol that shows up in most LED circuit diagram examples for a rectangle representing the Argon and its many pins. Refer to the Argon pinout (on Particle docs or last week's lab notes) for more detail.
-  - The LED's cathode and anode
-  - Both sides of the resistor
+    - The Argon's GPIO pin and ground pin (the Boron serves as our power supply, but swap out the power supply/battery symbol that shows up in most LED circuit diagram examples for a rectangle representing the Argon and its many pins. Refer to the Argon pinout (on Particle docs or last week's lab notes) for more detail.
+    - The LED's cathode and anode
+    - Both sides of the resistor
 3. Before plugging in the USB cable, confirm with Bresnahan that your circuit looks correct.
 4. Blink the LED using our old Blink_LED project but changing from the pin that we used in that script (to blink the onboard LED) to the pin corresponding to the GPIO pin you chose for this circuit. Make sure you change all references to the pin in the script. 
 5. Create a GitHub repository, or use your old Blink_LED one (creating a new one might be easier due to the way git tracks changes). Push to it your entire Particle project as well as your circuit diagram. Add a README.md file to the main repository/folder that describes what we can find in the repo (e.g., code and a circuit diagram) and provides instructions on how to build the circuit. For instructions, you may copy and paste from these notes as long as you reference this repository (note that the [repository's license](../LICENSE.txt) is very permissive).  

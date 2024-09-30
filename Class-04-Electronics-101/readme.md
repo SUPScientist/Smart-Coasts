@@ -1,5 +1,7 @@
 # Lab 4
 ## Blink external LED
+Test note to delete immediately.
+
 Following our early examples of blinking an onboard LED (i.e., the one mounted on your Particle Argon at the factory) and adding in what we've learned about breadboards, today's lab focuses on building a simple LED circuit on a breadboard. 
 
 Note that today's lab borrows from Particle documentation--specifically, https://docs.particle.io/getting-started/hardware-tutorials/hardware-examples/#blink-an-external-led. 
